@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CAD278ACA17845B3F19C24 /* libPods-DovizAltin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 584AFCB87922CFEFA629FDC5 /* libPods-DovizAltin.a */; };
+		8429862F1B4C231A00BAFB5B /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429862E1B4C231A00BAFB5B /* APIClient.m */; };
+		844AD73B1B4FD1C300CB2CE0 /* BankCurrencyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844AD73A1B4FD1C300CB2CE0 /* BankCurrencyTableViewController.m */; };
+		84C0BA361B4E74C200D45E4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C0BA351B4E74C200D45E4C /* ViewController.m */; };
+		A01A00881B4174EB000F2A2C /* AyarlarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01A00871B4174EB000F2A2C /* AyarlarViewController.m */; };
+		A01A00881B4174EB000F2A2C /* AyarlarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01A00871B4174EB000F2A2C /* AyarlarViewController.m */; };
+		A040D8A81B46B5EB00D0BC51 /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A040D8A71B46B5EB00D0BC51 /* APIClient.m */; };
+		A04690821B440279000552F1 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A04690701B440279000552F1 /* AFHTTPRequestOperation.m */; };
+		A04690831B440279000552F1 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A04690721B440279000552F1 /* AFHTTPRequestOperationManager.m */; };
+		A04690841B440279000552F1 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A04690741B440279000552F1 /* AFHTTPSessionManager.m */; };
+		A04690851B440279000552F1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A04690771B440279000552F1 /* AFNetworkReachabilityManager.m */; };
+		A04690861B440279000552F1 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A04690791B440279000552F1 /* AFSecurityPolicy.m */; };
+		A04690871B440279000552F1 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A046907B1B440279000552F1 /* AFURLConnectionOperation.m */; };
+		A04690881B440279000552F1 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A046907D1B440279000552F1 /* AFURLRequestSerialization.m */; };
+		A04690891B440279000552F1 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A046907F1B440279000552F1 /* AFURLResponseSerialization.m */; };
+		A046908A1B440279000552F1 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A04690811B440279000552F1 /* AFURLSessionManager.m */; };
+		A06169A91B3EC10B004A0E16 /* AddToGoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06169A81B3EC10B004A0E16 /* AddToGoldViewController.m */; };
+		A06E62BB1B3CA62E0053D077 /* alarmclockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A06E62BA1B3CA62E0053D077 /* alarmclockicon.png */; };
+		A079DCEA1B39777C005E3771 /* GoldTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A079DCE91B39777C005E3771 /* GoldTableViewController.m */; };
+		A07A974C1B3B2A5E00E99264 /* AlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07A974B1B3B2A5E00E99264 /* AlarmViewController.m */; };
+		A07A974F1B3B2B1400E99264 /* AlarmKurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07A974E1B3B2B1400E99264 /* AlarmKurViewController.m */; };
+		A09DB0261B3AC0BF0069DAF4 /* CurrencyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09DB0251B3AC0BF0069DAF4 /* CurrencyDetailViewController.m */; };
+		A0C3966E1B3B5EBF00184E89 /* AlarmObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C3966D1B3B5EBF00184E89 /* AlarmObject.m */; };
+		A0C8E8D31B386AAE0019B03E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C8E8D11B386AAE0019B03E /* Main.storyboard */; };
+		A0CE36031B3829C800DD7AEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CE36021B3829C800DD7AEE /* main.m */; };
+		A0CE36061B3829C800DD7AEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CE36051B3829C800DD7AEE /* AppDelegate.m */; };
+
+		A0CE36091B3829C800DD7AEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CE36081B3829C800DD7AEE /* ViewController.m */; };
+		A0CE360E1B3829C800DD7AEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CE360D1B3829C800DD7AEE /* Images.xcassets */; };
+		A0CE36111B3829C800DD7AEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0CE360F1B3829C800DD7AEE /* LaunchScreen.xib */; };
+		A0CE361D1B3829C800DD7AEE /* DovizAltinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CE361C1B3829C800DD7AEE /* DovizAltinTests.m */; };
+		A0CE36281B382FB100DD7AEE /* CurrencyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CE36271B382FB100DD7AEE /* CurrencyTableViewController.m */; };
+		A0CE362B1B38316200DD7AEE /* JSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CE362A1B38316200DD7AEE /* JSONObject.m */; };
+		A0F0F6261B39CC9700014723 /* AddToCurrencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F0F6251B39CC9700014723 /* AddToCurrencyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0CE36171B3829C800DD7AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CE35F51B3829C700DD7AEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CE35FC1B3829C700DD7AEE;
+			remoteInfo = DovizAltin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D894457F6482963C4EB6D8B /* Pods-DovizAltin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DovizAltin.release.xcconfig"; path = "Pods/Target Support Files/Pods-DovizAltin/Pods-DovizAltin.release.xcconfig"; sourceTree = "<group>"; };
+		584AFCB87922CFEFA629FDC5 /* libPods-DovizAltin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DovizAltin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8429862D1B4C231A00BAFB5B /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		8429862E1B4C231A00BAFB5B /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		844AD7391B4FD1C200CB2CE0 /* BankCurrencyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCurrencyTableViewController.h; sourceTree = "<group>"; };
+		844AD73A1B4FD1C300CB2CE0 /* BankCurrencyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankCurrencyTableViewController.m; sourceTree = "<group>"; };
+		84C0BA341B4E74C200D45E4C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84C0BA351B4E74C200D45E4C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A01A00861B4174EB000F2A2C /* AyarlarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AyarlarViewController.h; sourceTree = "<group>"; };
+		A01A00871B4174EB000F2A2C /* AyarlarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AyarlarViewController.m; sourceTree = "<group>"; };
+		A01A00861B4174EB000F2A2C /* AyarlarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AyarlarViewController.h; sourceTree = "<group>"; };
+		A01A00871B4174EB000F2A2C /* AyarlarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AyarlarViewController.m; sourceTree = "<group>"; };
+		A040D8A61B46B5EB00D0BC51 /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		A040D8A71B46B5EB00D0BC51 /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		A046906F1B440279000552F1 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A04690701B440279000552F1 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A04690711B440279000552F1 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		A04690721B440279000552F1 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		A04690731B440279000552F1 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		A04690741B440279000552F1 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A04690751B440279000552F1 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A04690761B440279000552F1 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A04690771B440279000552F1 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A04690781B440279000552F1 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		A04690791B440279000552F1 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A046907A1B440279000552F1 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A046907B1B440279000552F1 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A046907C1B440279000552F1 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A046907D1B440279000552F1 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		A046907E1B440279000552F1 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A046907F1B440279000552F1 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A04690801B440279000552F1 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		A04690811B440279000552F1 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		A06169A71B3EC10B004A0E16 /* AddToGoldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToGoldViewController.h; sourceTree = "<group>"; };
+		A06169A81B3EC10B004A0E16 /* AddToGoldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToGoldViewController.m; sourceTree = "<group>"; };
+		A06E62BA1B3CA62E0053D077 /* alarmclockicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarmclockicon.png; sourceTree = "<group>"; };
+		A079DCE81B39777C005E3771 /* GoldTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoldTableViewController.h; sourceTree = "<group>"; };
+		A079DCE91B39777C005E3771 /* GoldTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoldTableViewController.m; sourceTree = "<group>"; };
+		A07A974A1B3B2A5E00E99264 /* AlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmViewController.h; sourceTree = "<group>"; };
+		A07A974B1B3B2A5E00E99264 /* AlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmViewController.m; sourceTree = "<group>"; };
+		A07A974D1B3B2B1400E99264 /* AlarmKurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmKurViewController.h; sourceTree = "<group>"; };
+		A07A974E1B3B2B1400E99264 /* AlarmKurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmKurViewController.m; sourceTree = "<group>"; };
+		A09DB0241B3AC0BF0069DAF4 /* CurrencyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyDetailViewController.h; sourceTree = "<group>"; };
+		A09DB0251B3AC0BF0069DAF4 /* CurrencyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyDetailViewController.m; sourceTree = "<group>"; };
+		A0C3966C1B3B5EBF00184E89 /* AlarmObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmObject.h; sourceTree = "<group>"; };
+		A0C3966D1B3B5EBF00184E89 /* AlarmObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmObject.m; sourceTree = "<group>"; };
+		A0C8E8D21B386AAE0019B03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0CE35FD1B3829C800DD7AEE /* DovizAltin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DovizAltin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CE36011B3829C800DD7AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CE36021B3829C800DD7AEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0CE36041B3829C800DD7AEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0CE36051B3829C800DD7AEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0CE36071B3829C800DD7AEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0CE36081B3829C800DD7AEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0CE360D1B3829C800DD7AEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0CE36101B3829C800DD7AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A0CE36161B3829C800DD7AEE /* DovizAltinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DovizAltinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CE361B1B3829C800DD7AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CE361C1B3829C800DD7AEE /* DovizAltinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DovizAltinTests.m; sourceTree = "<group>"; };
+		A0CE36261B382FB100DD7AEE /* CurrencyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyTableViewController.h; sourceTree = "<group>"; };
+		A0CE36271B382FB100DD7AEE /* CurrencyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyTableViewController.m; sourceTree = "<group>"; };
+		A0CE36291B38316200DD7AEE /* JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONObject.h; sourceTree = "<group>"; };
+		A0CE362A1B38316200DD7AEE /* JSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONObject.m; sourceTree = "<group>"; };
+		A0F0F6241B39CC9700014723 /* AddToCurrencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToCurrencyViewController.h; sourceTree = "<group>"; };
+		A0F0F6251B39CC9700014723 /* AddToCurrencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToCurrencyViewController.m; sourceTree = "<group>"; };
+		EFBB5F6B0AAB3168B6169B97 /* Pods-DovizAltin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DovizAltin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DovizAltin/Pods-DovizAltin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0CE35FA1B3829C700DD7AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CAD278ACA17845B3F19C24 /* libPods-DovizAltin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE36131B3829C800DD7AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FDEDE71F4FC1450185E92FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				584AFCB87922CFEFA629FDC5 /* libPods-DovizAltin.a */,
+			);
+			name = Frameworks;
+		A046906E1B440279000552F1 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A046906F1B440279000552F1 /* AFHTTPRequestOperation.h */,
+				A04690701B440279000552F1 /* AFHTTPRequestOperation.m */,
+				A04690711B440279000552F1 /* AFHTTPRequestOperationManager.h */,
+				A04690721B440279000552F1 /* AFHTTPRequestOperationManager.m */,
+				A04690731B440279000552F1 /* AFHTTPSessionManager.h */,
+				A04690741B440279000552F1 /* AFHTTPSessionManager.m */,
+				A04690751B440279000552F1 /* AFNetworking.h */,
+				A04690761B440279000552F1 /* AFNetworkReachabilityManager.h */,
+				A04690771B440279000552F1 /* AFNetworkReachabilityManager.m */,
+				A04690781B440279000552F1 /* AFSecurityPolicy.h */,
+				A04690791B440279000552F1 /* AFSecurityPolicy.m */,
+				A046907A1B440279000552F1 /* AFURLConnectionOperation.h */,
+				A046907B1B440279000552F1 /* AFURLConnectionOperation.m */,
+				A046907C1B440279000552F1 /* AFURLRequestSerialization.h */,
+				A046907D1B440279000552F1 /* AFURLRequestSerialization.m */,
+				A046907E1B440279000552F1 /* AFURLResponseSerialization.h */,
+				A046907F1B440279000552F1 /* AFURLResponseSerialization.m */,
+				A04690801B440279000552F1 /* AFURLSessionManager.h */,
+				A04690811B440279000552F1 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A0CE35F41B3829C700DD7AEE = {
+			isa = PBXGroup;
+			children = (
+				A0CE35FF1B3829C800DD7AEE /* DovizAltin */,
+				A0CE36191B3829C800DD7AEE /* DovizAltinTests */,
+				A0CE35FE1B3829C800DD7AEE /* Products */,
+				FFDC2084D4651004AC655539 /* Pods */,
+				4FDEDE71F4FC1450185E92FA /* Frameworks */,
+				A046906E1B440279000552F1 /* AFNetworking */,
+			);
+			sourceTree = "<group>";
+		};
+		A0CE35FE1B3829C800DD7AEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0CE35FD1B3829C800DD7AEE /* DovizAltin.app */,
+				A0CE36161B3829C800DD7AEE /* DovizAltinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0CE35FF1B3829C800DD7AEE /* DovizAltin */ = {
+			isa = PBXGroup;
+			children = (
+				A0CE36041B3829C800DD7AEE /* AppDelegate.h */,
+				A0CE36051B3829C800DD7AEE /* AppDelegate.m */,
+				8429862D1B4C231A00BAFB5B /* APIClient.h */,
+				8429862E1B4C231A00BAFB5B /* APIClient.m */,
+				84C0BA341B4E74C200D45E4C /* ViewController.h */,
+				84C0BA351B4E74C200D45E4C /* ViewController.m */,
+				A0CE36071B3829C800DD7AEE /* ViewController.h */,
+				A0CE36081B3829C800DD7AEE /* ViewController.m */,
+				A040D8A61B46B5EB00D0BC51 /* APIClient.h */,
+				A040D8A71B46B5EB00D0BC51 /* APIClient.m */,
+				A0CE36291B38316200DD7AEE /* JSONObject.h */,
+				A0CE362A1B38316200DD7AEE /* JSONObject.m */,
+				A0CE36261B382FB100DD7AEE /* CurrencyTableViewController.h */,
+				A0CE36271B382FB100DD7AEE /* CurrencyTableViewController.m */,
+				A09DB0241B3AC0BF0069DAF4 /* CurrencyDetailViewController.h */,
+				A09DB0251B3AC0BF0069DAF4 /* CurrencyDetailViewController.m */,
+				A0F0F6241B39CC9700014723 /* AddToCurrencyViewController.h */,
+				A0F0F6251B39CC9700014723 /* AddToCurrencyViewController.m */,
+				A079DCE81B39777C005E3771 /* GoldTableViewController.h */,
+				A079DCE91B39777C005E3771 /* GoldTableViewController.m */,
+				A06169A71B3EC10B004A0E16 /* AddToGoldViewController.h */,
+				A06169A81B3EC10B004A0E16 /* AddToGoldViewController.m */,
+				A0C3966C1B3B5EBF00184E89 /* AlarmObject.h */,
+				A0C3966D1B3B5EBF00184E89 /* AlarmObject.m */,
+				A07A974A1B3B2A5E00E99264 /* AlarmViewController.h */,
+				A07A974B1B3B2A5E00E99264 /* AlarmViewController.m */,
+				A07A974D1B3B2B1400E99264 /* AlarmKurViewController.h */,
+				A07A974E1B3B2B1400E99264 /* AlarmKurViewController.m */,
+				A01A00861B4174EB000F2A2C /* AyarlarViewController.h */,
+				A01A00871B4174EB000F2A2C /* AyarlarViewController.m */,
+				844AD7391B4FD1C200CB2CE0 /* BankCurrencyTableViewController.h */,
+				844AD73A1B4FD1C300CB2CE0 /* BankCurrencyTableViewController.m */,
+				A0CE36291B38316200DD7AEE /* JSONObject.h */,
+				A0C8E8D11B386AAE0019B03E /* Main.storyboard */,
+				A0CE360D1B3829C800DD7AEE /* Images.xcassets */,
+				A0CE360F1B3829C800DD7AEE /* LaunchScreen.xib */,
+				A0CE36001B3829C800DD7AEE /* Supporting Files */,
+			);
+			path = DovizAltin;
+			sourceTree = "<group>";
+		};
+		A0CE36001B3829C800DD7AEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A06E62BA1B3CA62E0053D077 /* alarmclockicon.png */,
+				A0CE36011B3829C800DD7AEE /* Info.plist */,
+				A0CE36021B3829C800DD7AEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0CE36191B3829C800DD7AEE /* DovizAltinTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0CE361C1B3829C800DD7AEE /* DovizAltinTests.m */,
+				A0CE361A1B3829C800DD7AEE /* Supporting Files */,
+			);
+			path = DovizAltinTests;
+			sourceTree = "<group>";
+		};
+		A0CE361A1B3829C800DD7AEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0CE361B1B3829C800DD7AEE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFDC2084D4651004AC655539 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB5F6B0AAB3168B6169B97 /* Pods-DovizAltin.debug.xcconfig */,
+				0D894457F6482963C4EB6D8B /* Pods-DovizAltin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0CE35FC1B3829C700DD7AEE /* DovizAltin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CE36201B3829C800DD7AEE /* Build configuration list for PBXNativeTarget "DovizAltin" */;
+			buildPhases = (
+				6254CA7A51DE790FD365BB96 /* Check Pods Manifest.lock */,
+				A0CE35F91B3829C700DD7AEE /* Sources */,
+				A0CE35FA1B3829C700DD7AEE /* Frameworks */,
+				A0CE35FB1B3829C700DD7AEE /* Resources */,
+				F2EA5DA6BB059889F94535B8 /* Copy Pods Resources */,
+				A0CE35F91B3829C700DD7AEE /* Sources */,
+				A0CE35FA1B3829C700DD7AEE /* Frameworks */,
+				A0CE35FB1B3829C700DD7AEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DovizAltin;
+			productName = DovizAltin;
+			productReference = A0CE35FD1B3829C800DD7AEE /* DovizAltin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0CE36151B3829C800DD7AEE /* DovizAltinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CE36231B3829C800DD7AEE /* Build configuration list for PBXNativeTarget "DovizAltinTests" */;
+			buildPhases = (
+				A0CE36121B3829C800DD7AEE /* Sources */,
+				A0CE36131B3829C800DD7AEE /* Frameworks */,
+				A0CE36141B3829C800DD7AEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CE36181B3829C800DD7AEE /* PBXTargetDependency */,
+			);
+			name = DovizAltinTests;
+			productName = DovizAltinTests;
+			productReference = A0CE36161B3829C800DD7AEE /* DovizAltinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0CE35F51B3829C700DD7AEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = user30357;
+				TargetAttributes = {
+					A0CE35FC1B3829C700DD7AEE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A0CE36151B3829C800DD7AEE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A0CE35FC1B3829C700DD7AEE;
+					};
+				};
+			};
+			buildConfigurationList = A0CE35F81B3829C700DD7AEE /* Build configuration list for PBXProject "DovizAltin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0CE35F41B3829C700DD7AEE;
+			productRefGroup = A0CE35FE1B3829C800DD7AEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0CE35FC1B3829C700DD7AEE /* DovizAltin */,
+				A0CE36151B3829C800DD7AEE /* DovizAltinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0CE35FB1B3829C700DD7AEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C8E8D31B386AAE0019B03E /* Main.storyboard in Resources */,
+				A0CE36111B3829C800DD7AEE /* LaunchScreen.xib in Resources */,
+				A0CE360E1B3829C800DD7AEE /* Images.xcassets in Resources */,
+				A06E62BB1B3CA62E0053D077 /* alarmclockicon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE36141B3829C800DD7AEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6254CA7A51DE790FD365BB96 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2EA5DA6BB059889F94535B8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DovizAltin/Pods-DovizAltin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0CE35F91B3829C700DD7AEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844AD73B1B4FD1C300CB2CE0 /* BankCurrencyTableViewController.m in Sources */,
+				84C0BA361B4E74C200D45E4C /* ViewController.m in Sources */,
+				A06169A91B3EC10B004A0E16 /* AddToGoldViewController.m in Sources */,
+				A0C3966E1B3B5EBF00184E89 /* AlarmObject.m in Sources */,
+				A0CE36061B3829C800DD7AEE /* AppDelegate.m in Sources */,
+				A079DCEA1B39777C005E3771 /* GoldTableViewController.m in Sources */,
+				A07A974F1B3B2B1400E99264 /* AlarmKurViewController.m in Sources */,
+				A07A974C1B3B2A5E00E99264 /* AlarmViewController.m in Sources */,
+				8429862F1B4C231A00BAFB5B /* APIClient.m in Sources */,
+				A01A00881B4174EB000F2A2C /* AyarlarViewController.m in Sources */,
+				A06169A91B3EC10B004A0E16 /* AddToGoldViewController.m in Sources */,
+				A0CE36091B3829C800DD7AEE /* ViewController.m in Sources */,
+				A04690831B440279000552F1 /* AFHTTPRequestOperationManager.m in Sources */,
+				A0C3966E1B3B5EBF00184E89 /* AlarmObject.m in Sources */,
+				A04690871B440279000552F1 /* AFURLConnectionOperation.m in Sources */,
+				A0CE36061B3829C800DD7AEE /* AppDelegate.m in Sources */,
+				A079DCEA1B39777C005E3771 /* GoldTableViewController.m in Sources */,
+				A04690881B440279000552F1 /* AFURLRequestSerialization.m in Sources */,
+				A07A974F1B3B2B1400E99264 /* AlarmKurViewController.m in Sources */,
+				A04690841B440279000552F1 /* AFHTTPSessionManager.m in Sources */,
+				A04690821B440279000552F1 /* AFHTTPRequestOperation.m in Sources */,
+				A07A974C1B3B2A5E00E99264 /* AlarmViewController.m in Sources */,
+				A04690861B440279000552F1 /* AFSecurityPolicy.m in Sources */,
+				A040D8A81B46B5EB00D0BC51 /* APIClient.m in Sources */,
+				A01A00881B4174EB000F2A2C /* AyarlarViewController.m in Sources */,
+				A04690851B440279000552F1 /* AFNetworkReachabilityManager.m in Sources */,
+				A046908A1B440279000552F1 /* AFURLSessionManager.m in Sources */,
+				A0CE362B1B38316200DD7AEE /* JSONObject.m in Sources */,
+				A09DB0261B3AC0BF0069DAF4 /* CurrencyDetailViewController.m in Sources */,
+				A0F0F6261B39CC9700014723 /* AddToCurrencyViewController.m in Sources */,
+				A0CE36031B3829C800DD7AEE /* main.m in Sources */,
+				A04690891B440279000552F1 /* AFURLResponseSerialization.m in Sources */,
+				A0CE36281B382FB100DD7AEE /* CurrencyTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CE36121B3829C800DD7AEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CE361D1B3829C800DD7AEE /* DovizAltinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0CE36181B3829C800DD7AEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CE35FC1B3829C700DD7AEE /* DovizAltin */;
+			targetProxy = A0CE36171B3829C800DD7AEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0C8E8D11B386AAE0019B03E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C8E8D21B386AAE0019B03E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0CE360F1B3829C800DD7AEE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CE36101B3829C800DD7AEE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0CE361E1B3829C800DD7AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0CE361F1B3829C800DD7AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0CE36211B3829C800DD7AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBB5F6B0AAB3168B6169B97 /* Pods-DovizAltin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DovizAltin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0CE36221B3829C800DD7AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D894457F6482963C4EB6D8B /* Pods-DovizAltin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DovizAltin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0CE36241B3829C800DD7AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DovizAltinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DovizAltin.app/DovizAltin";
+			};
+			name = Debug;
+		};
+		A0CE36251B3829C800DD7AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DovizAltinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DovizAltin.app/DovizAltin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0CE35F81B3829C700DD7AEE /* Build configuration list for PBXProject "DovizAltin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CE361E1B3829C800DD7AEE /* Debug */,
+				A0CE361F1B3829C800DD7AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CE36201B3829C800DD7AEE /* Build configuration list for PBXNativeTarget "DovizAltin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CE36211B3829C800DD7AEE /* Debug */,
+				A0CE36221B3829C800DD7AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CE36231B3829C800DD7AEE /* Build configuration list for PBXNativeTarget "DovizAltinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CE36241B3829C800DD7AEE /* Debug */,
+				A0CE36251B3829C800DD7AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0CE35F51B3829C700DD7AEE /* Project object */;
+}
